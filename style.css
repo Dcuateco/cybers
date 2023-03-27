@@ -1,0 +1,63 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+.wrapper {
+    width: 100%;
+    height: 1285px;
+    position: absolute;
+    margin: 10px;
+    background-color: #12B836;
+}
+article {
+    width: 60%;
+    height: 1000px;
+    background-color: #0B6B20;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    left: 500px;
+    top: 150px;
+}
+.virus {
+    border: 5px solid black;
+    width: 500px;
+    height: 250px;
+    margin: 5px;
+    background-color: #5fee7e;
+}
+.interception {
+    border: 5px solid black;
+    width: 450px;
+    height: 200px;
+    margin: 5px;
+    background-color: #5fee7e;
+}
+.overview {
+    border: 5px solid black;
+    width: 500px;
+    height: 250px;
+    margin: 5px;
+    background-color: #5fee7e;
+}
+header {
+    background-color: #18EA46;
+    text-align: center;
+    color: white;
+}
+nav {
+    text-align: center;
+    background-color: #2b6b39;
+}
+h1 {
+    text-align: center;
+}
+@media screen and (min-width: 1734px) {
+    
+}
+@media screen and (max-width: 1733px) {
+    
+}
